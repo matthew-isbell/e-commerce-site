@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign in</title>
+
+	<!-- bootstrap link for nice buttons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	<!-- css link to make it look pretty -->
+	<link rel = "stylesheet" href = "/public/login-style.css">
+	
+	<!-- fonts used on the sign in page -->
+	<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+</head>
+<body style = "overflow: hidden;">
+
+	<div id = "login-container">
+		<div id = "sign-in">
+			<h1 id = "text"> Welcome! <br> Sign in to your account </h1>
+			<small id = "text2">Start buying and selling baby clothes the smart way</small>
+			
+			<form id="users" method="POST">
+
+			<!-- username text thing -->
+			<div class="form-group">
+				<label for="exampleInputUsername1"></label>
+			    <input type="username" class="form-control" id="exampleInputUsername1" name="username" placeholder="Username">
+			</div>
+
+			<!-- password text thing -->
+			<div id="top" class="form-group">
+				<label for="exampleInputPassword1"></label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+			</div>
+
+			  <!-- sign in button -->
+			<button type="submit" class="btn btn-secondary btn-lg btn-block btn-dark">Sign in</button>
+			</form>
+		</div>
+
+		<!-- image on the login page -->
+		<div id = "login-img">
+			<img src="/public/images/login-baby-4.jpg"
+				width = "650"
+				height = "auto"
+				style = "border-radius: 20px;">
+		</div>
+	</div>
+</body>
+</html>
